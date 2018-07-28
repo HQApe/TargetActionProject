@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import <CTMediator+ComponentA.h>
+#import <CTMediator+ComponentB.h>
 @interface ViewController ()
 
 @end
@@ -17,8 +18,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
+- (IBAction)moduleAAction:(id)sender {
+    UIViewController *vc = [[CTMediator sharedInstance] fetchComponentAVCWithSource:@"Project"];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+
+- (IBAction)moduleBAction:(id)sender {
+    UIViewController *vc = [[CTMediator sharedInstance] fetchComponentBVCWithSource:@"Project"];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
