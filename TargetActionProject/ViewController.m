@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import <CTMediator+ComponentA.h>
 #import <CTMediator+ComponentB.h>
+#import <CTMediator+HQMapComponent.h>
+#import <MAMapKit/MAMapKit.h>
 @interface ViewController ()
 
 @end
@@ -18,7 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
     
 }
 
@@ -31,6 +32,13 @@
 
 - (IBAction)moduleBAction:(id)sender {
     UIViewController *vc = [[CTMediator sharedInstance] fetchComponentBVCWithSource:@"Project"];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)moduleMapAction:(id)sender {
+    
+    UIViewController *vc = [[CTMediator sharedInstance] fetchMapViewController];
     
     [self.navigationController pushViewController:vc animated:YES];
 }

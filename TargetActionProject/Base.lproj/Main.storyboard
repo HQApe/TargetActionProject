@@ -24,7 +24,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9LI-Vp-Mjv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1145" y="357"/>
+            <point key="canvasLocation" x="-478" y="216"/>
         </scene>
         <!--TargetActionComponent-->
         <scene sceneID="tne-QT-ifu">
@@ -48,13 +48,24 @@
                                     <action selector="moduleBAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cLd-bK-tZs"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5j-hA-2fz">
+                                <rect key="frame" x="156.5" y="230" width="62" height="30"/>
+                                <state key="normal" title="地图模块"/>
+                                <connections>
+                                    <action selector="moduleMapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CyJ-ly-RID"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SRW-dA-sVe" secondAttribute="trailing" constant="56" id="02u-R9-ytY"/>
                             <constraint firstItem="Qc3-2z-68Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="191-qo-vH5"/>
+                            <constraint firstItem="b5j-hA-2fz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="166" id="7JM-y4-Lgv"/>
                             <constraint firstItem="SRW-dA-sVe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="71" id="7ss-J4-P9z"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Qc3-2z-68Z" secondAttribute="trailing" constant="20" symbolic="YES" id="I64-DD-afU"/>
                             <constraint firstItem="Qc3-2z-68Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="71" id="QAi-nh-nAW"/>
+                            <constraint firstItem="SRW-dA-sVe" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="cZO-Fc-wqe"/>
+                            <constraint firstItem="b5j-hA-2fz" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fJ1-km-c9v"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -62,7 +73,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-311" y="235"/>
+            <point key="canvasLocation" x="295" y="216"/>
         </scene>
     </scenes>
 </document>

@@ -167,6 +167,7 @@
 				F1FD5EC9210CC050007108E7 /* Sources */,
 				F1FD5ECA210CC050007108E7 /* Frameworks */,
 				F1FD5ECB210CC050007108E7 /* Resources */,
+				8B6710365182348530E5B47A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,6 +284,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		8B6710365182348530E5B47A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TargetActionProject/Pods-TargetActionProject-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TargetActionProject/Pods-TargetActionProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FFF5CBBF3FFFAACC37D0B061 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

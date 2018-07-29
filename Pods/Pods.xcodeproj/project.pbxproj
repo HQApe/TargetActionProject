@@ -7,128 +7,277 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		026CF4C28F372BB0AD282069C0245DAE /* TAEntreyBVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 75074553A2CC7D968C1F0580A0F3F75A /* TAEntreyBVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		02AED234216CBFD9A9F237B7BA5A425F /* TAEntreyAVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D44BA1778A0971E9B1E4D9A8F4C5B98 /* TAEntreyAVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2AFCF0D722CBA38C247A7EAF6B484E96 /* TargetActionComponentB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B1F3B41879ACEFF902C3BFBC302822 /* TargetActionComponentB-dummy.m */; };
-		4498656C77090D1554534DAA0427E74C /* Target_ComponentB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA519DFD1F8B3996913F83E62D78431 /* Target_ComponentB.m */; };
-		54E79AFE6EDCE114293BE4322EF94A93 /* TargetActionComponentA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230621325951091899D11433225B81B /* TargetActionComponentA-dummy.m */; };
-		76DB998FA3F57B1CD3A885FF37092D46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46FBC041420035C341CC6342582587 /* UIKit.framework */; };
-		828FEA294D43D8E9E80B588F2C81EEFD /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7827B68A494A874D6E5124041A52CC /* CTMediator-dummy.m */; };
-		8DD9A18B75B5D921485C5B3F9E83F2AB /* CTMediator+ComponentA.h in Headers */ = {isa = PBXBuildFile; fileRef = 17AB766CF8D5933305E6A8FB212D5187 /* CTMediator+ComponentA.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8E7343A42CF0BFD86F9280672636A36F /* CTMediator+ComponentB.m in Sources */ = {isa = PBXBuildFile; fileRef = C04A6DF70B32BDEC22AFCE0462FD90BB /* CTMediator+ComponentB.m */; };
-		9E0D55270C8C4F4D212E1854B13E27AE /* Target_ComponentA.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED0B0B65F7078898BA3BF058A3323AD /* Target_ComponentA.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9E119EB047BF15D74A22A462464899AB /* TAEntreyBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D247482AD3480E7ABBC0EEE644C8F5 /* TAEntreyBVC.m */; };
-		A79268F074EA80FA44575FE1C82B632C /* TAentryBDetailVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A7FD8F5EA14DBEBBB047FB6AC7781C /* TAentryBDetailVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B6F4B76B22B9151DA10F149C46BDE7B4 /* Pods-TargetActionProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32C68608454A94D82D399109BD8E61 /* Pods-TargetActionProject-dummy.m */; };
-		BAB86D9B55D751FE28AF3DBE6814B93F /* TAentryADetailVC.h in Headers */ = {isa = PBXBuildFile; fileRef = C63E3237259FC12A9711775B657F1316 /* TAentryADetailVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C83E5555E7269C9883B96E41D223613D /* TAentryBDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C3D46523E7ABDCE2FF340E6CF9DDEB /* TAentryBDetailVC.m */; };
-		D87989421481D1DD93ABBF60D7F08B62 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 706FC59597A17B6385872A91CCCBB84D /* CTMediator.m */; };
-		DFA06244DD8B93F58C8862A4C1FFBAE6 /* CTMediator+ComponentB.h in Headers */ = {isa = PBXBuildFile; fileRef = FC883DE28A81C6D716BFAF0971CA0135 /* CTMediator+ComponentB.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E0EF3F45FE6BB69310F709E8A25D6F98 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A10CF9D947B3E3C84C779A645B3FE63 /* CTMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EA54903B81FFD5DA990686EA53806F30 /* Target_ComponentB.h in Headers */ = {isa = PBXBuildFile; fileRef = CC79E2F271BAE2A479381ABDCE83FC48 /* Target_ComponentB.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EBCF6827F1BB7FA14F7C29B6ECF45A81 /* TAentryADetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A56560E4B6BF82EF762D8AC88D8C5737 /* TAentryADetailVC.m */; };
-		ECA786931DE1AB4A01206A10449A14A3 /* TAEntreyAVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C745B064E8364F15B166A151FD3237A1 /* TAEntreyAVC.m */; };
-		EF789B65102C51F937C61EE2C69E6648 /* Target_ComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D12497098C8301D48E186BDE208C85E /* Target_ComponentA.m */; };
-		EFA27D038554019F3A293341ABC0032D /* CTMediator+ComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = F162A35EB50E21ABB9B6E49BF8BC4E0B /* CTMediator+ComponentA.m */; };
+		01C3D1ED6D9CA9BC8649F87DE27EEB37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09484960E5BD0F2AE1CE8464FFBED272 /* Foundation.framework */; };
+		1A87809694388D0AF93B225B8C4A838B /* TAentryBDetailVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 89346328E891BC268C23F400FD629472 /* TAentryBDetailVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		206C602970ED9133A2F51D45FA9EFD90 /* CTMediator+ComponentA.h in Headers */ = {isa = PBXBuildFile; fileRef = 3460382B82D532CCDE26D976A51C7AA3 /* CTMediator+ComponentA.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		212E6A5E2B7A9A95CE75583FC725E5DA /* HQAddressModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 283E30DB1D3B461B90DC46C92DD91D51 /* HQAddressModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		247A56C7BD884D7A3622EEF3D76FDF48 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B4142BD67E21C84B3A60AABEBC2C69 /* SystemConfiguration.framework */; };
+		2624197D1C7A92479F5AD39E41165F67 /* HQLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CCE2E50E8C88487B030D3A8210FE08F /* HQLocationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		271A8AE6AB745E935DAD424C2E9A00AE /* Target_ComponentA.h in Headers */ = {isa = PBXBuildFile; fileRef = FB09C38E8BF0FD4E9A60AD5AAB4CDDF6 /* Target_ComponentA.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27667CC1D2AD54FFAB29026420BC37D9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C22B895A5E6BF82F157C6D8750451 /* AdSupport.framework */; };
+		2B984F5351298C9879D7A78914C7014A /* TAEntreyAVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F9216070E273D1B7066DF00EE1F9D343 /* TAEntreyAVC.m */; };
+		33109C8C6BC911515C7CC2BB8D9E71E4 /* CTMediator+HQMapComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = F280E33F6F13B474E7389B05A53BCC38 /* CTMediator+HQMapComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		352BA8BA8CF4018208E756728FB74842 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2B3B946309D6C71B5C0A9C9C245BD5 /* MAMapKit.framework */; };
+		38F36179E6AA843376C0DED390749F5C /* TAentryADetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 643CD5C682CC45F6C60DCA3C771A48BE /* TAentryADetailVC.m */; };
+		3AADBC2828DADFAA02985238BA8253AD /* HQMapComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A04DFD44D1C33BD689B9ABE60338E0 /* HQMapComponent-dummy.m */; };
+		3C6DCA63C51C980F959998B2569E16D9 /* Target_HQMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D13B5AD2C433C0091906E8F959660C /* Target_HQMap.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4510559266384F37A539946B045D0F29 /* HQMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C99F801E6C3A095130BFD62E47924A9 /* HQMapViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47EBDBADCAF1B41524E32034B9387FA7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6385EC6CB9BFB9D9CE113C6F813308F /* CoreTelephony.framework */; };
+		48E2EA85CF94D8A8C0AA4B1D728D710D /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9809C25A430EF7B289756BC4B2ECC99 /* AMapSearchKit.framework */; };
+		6099558631FD906D9E04AEDEB55176CF /* TargetActionComponentA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33845F3E6F61502A1B19E05C77A34197 /* TargetActionComponentA-dummy.m */; };
+		637DFFB2D545D50CA1B39D20DDD04045 /* TargetActionComponentB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31175D8D1C28965A31E1E49199F3B874 /* TargetActionComponentB-dummy.m */; };
+		638BA19C2A7D55A1E9825B416B5EE0E7 /* CTMediator+HQMapComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E0211CA79F88A2A2D499B07E2D6BD3 /* CTMediator+HQMapComponent.m */; };
+		76DB998FA3F57B1CD3A885FF37092D46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7BBEAF6F2C032B87C1AF07F290DEF4 /* UIKit.framework */; };
+		79BBE8CE7574CA3A38638E6CAB6787BC /* TAEntreyBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B4EDD03C3AE1C09E4CB43730288D8F /* TAEntreyBVC.m */; };
+		79C038290BA5A35F49223EBA7298034D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A0B882EB957A11D009870D7DFA44E8 /* QuartzCore.framework */; };
+		7F355BD615C5C134C66D0ADA3D5D6FAB /* HQAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F03E9ACDEC7ED7996B41BF34DC82D /* HQAddressModel.m */; };
+		828FEA294D43D8E9E80B588F2C81EEFD /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 639003F9EED353121F43889C1C949C4B /* CTMediator-dummy.m */; };
+		863304391844DB4E37E65DB9B93FE658 /* Target_ComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = 374338D562132C09E9E77DBD0A7F8E91 /* Target_ComponentA.m */; };
+		8B2C097ECC15B6857C3CCA65AA5AF353 /* JavaScriptcore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987E74A4159D8A6710ACB6B90553626B /* JavaScriptcore.framework */; };
+		8E65E8D31E6C65F3B24F69C1DDFE46BE /* Pods-TargetActionProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32C68608454A94D82D399109BD8E61 /* Pods-TargetActionProject-dummy.m */; };
+		8FEEE2588BFA67A32BBDF403BAFFEE51 /* CTMediator+ComponentB.m in Sources */ = {isa = PBXBuildFile; fileRef = B941FF53BAB1106F9B12ABCB39D5B425 /* CTMediator+ComponentB.m */; };
+		9BDF3BB28DFA63895CAF3E4A6C455831 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A08906564877D23BEDEF153A44D3E3 /* CoreGraphics.framework */; };
+		9F1787B47526D8EDFACF451DB62B23AC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245FCF723097C8187BD469019335E226 /* GLKit.framework */; };
+		A48F9A2689046BEC61DE8B5C2F990C8A /* CTMediator+ComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = 92434C014D822F3BDE35C265F7AA37CA /* CTMediator+ComponentA.m */; };
+		B91090EA5F588E09AB8DE5A4AF2EC33A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A12BCAE44FEA20F35B320BCB265B4B /* OpenGLES.framework */; };
+		BA1B765EDCCEA43E13737573BCBD3E1A /* HQMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442C4CAC6CADA3A62CB755F6D34418B3 /* HQMapViewController.m */; };
+		BAEE9FE03C2D5C1B71ED606F6C7EA6F5 /* TAEntreyAVC.h in Headers */ = {isa = PBXBuildFile; fileRef = AC473272D8A0D8E2AD3DBB3179ADAE25 /* TAEntreyAVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BCE071E08ADB305987391E6FEA83BF6B /* HQLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DD361BA7681E9EC671417BBB21234A /* HQLocationManager.m */; };
+		BFC06E886D4D3675AD032E6D1FC7451C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4753B0B68343DC374F83AE9C925F76DA /* Security.framework */; };
+		C01ED7126C2BCB3C528482077A2BEC4A /* TAentryBDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 469FC93FB89E0EDE0FDE3807AFA55155 /* TAentryBDetailVC.m */; };
+		C78BB0A4FB4611D3DDD37AFEB3F9162B /* Target_ComponentB.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D054CC18AA890A4C9120FF16C29B0E /* Target_ComponentB.m */; };
+		CDD47579EA87B2381FABD13623C37BE1 /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D0CE2082F531037C4CA180433AAC02 /* AMapLocationKit.framework */; };
+		D87989421481D1DD93ABBF60D7F08B62 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6D2F6179EECE472D953082B46DCF8E /* CTMediator.m */; };
+		E0EF3F45FE6BB69310F709E8A25D6F98 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DE245D7FA8F687D4ACF69268E840CF /* CTMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7EB415406BEEA8A6038AE8B4BFA9716 /* TAentryADetailVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 705674E91327CF50EB57DAEA17118C87 /* TAentryADetailVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EEF577F6AA6881916A3D3F038BCC6347 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B731D6A5C9261050C1BBD6FA79B889AF /* CoreLocation.framework */; };
+		F0C7FDEB83EE441582F5A412E17E069C /* Target_ComponentB.h in Headers */ = {isa = PBXBuildFile; fileRef = 4365FAF666CD2B40AAAE668B36946EDD /* Target_ComponentB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1B99A343F023326F827728901FCEFB2 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC5F058B5C868F0E98A5BFA14DC2A97 /* AMapFoundationKit.framework */; };
+		F2030DA4445D653F7AC165505633DF1E /* CTMediator+ComponentB.h in Headers */ = {isa = PBXBuildFile; fileRef = 735276251AD8FAF3BB19D95BEF3B1765 /* CTMediator+ComponentB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA12925BD2819D22C65809D1CC8492C6 /* TAEntreyBVC.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CD8EA976489E975D50AE39111D4672 /* TAEntreyBVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD4D30377805B4360EEFCAFE3CDFFDA2 /* Target_HQMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DFAC992D8709F065A202B265CA028 /* Target_HQMap.m */; };
+		FF877BA14B9F691786FC9A7B1EAAD537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7BBEAF6F2C032B87C1AF07F290DEF4 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5CE45CD095489090E8371FD79EC183C3 /* PBXContainerItemProxy */ = {
+		16CE055CAA48E56FB16898123011BCB6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ECB1A7A59C6F136BB8572A720B363FBC;
-			remoteInfo = TargetActionComponentA;
-		};
-		8301A493E4DF4CFFB8F40581956A091C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E860DBFDF4A7872F6049CBAEAA721AD9;
-			remoteInfo = CTMediator;
-		};
-		8AECC45BCC117AE2130350DC8E3DF08B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E860DBFDF4A7872F6049CBAEAA721AD9;
-			remoteInfo = CTMediator;
-		};
-		C48F2C67BE46C9885744415355FB528A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CB53EB3EC046D02897DF64C49D19C4F5;
+			remoteGlobalIDString = B9F0A55DC1299EC4B42D2C6604C1805F;
 			remoteInfo = TargetActionComponentB;
 		};
-		F228D5105E3985E9C10916AD72E31A46 /* PBXContainerItemProxy */ = {
+		5BC2096599EC609437D74157E9206DDA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E860DBFDF4A7872F6049CBAEAA721AD9;
 			remoteInfo = CTMediator;
+		};
+		7D8ECB8AF1FFD40A60431B5524648295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D01D667FC4EFEE49ED901118A7A33A28;
+			remoteInfo = HQMapComponent;
+		};
+		A026AC9CF7D857465CBD9C13B4C035E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E860DBFDF4A7872F6049CBAEAA721AD9;
+			remoteInfo = CTMediator;
+		};
+		BC0B08FA2F25DEC7FEDC5199CC642B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E860DBFDF4A7872F6049CBAEAA721AD9;
+			remoteInfo = CTMediator;
+		};
+		C02D6A04D81E09750B786C4A791D1500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E860DBFDF4A7872F6049CBAEAA721AD9;
+			remoteInfo = CTMediator;
+		};
+		D630161CB86E5FE66C2BF5F01829699E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38C2F75D20814A75C598568FD7F09C4E;
+			remoteInfo = TargetActionComponentA;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16674A3120F61520A144A89CEE985ECC /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
-		17AB766CF8D5933305E6A8FB212D5187 /* CTMediator+ComponentA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+ComponentA.h"; path = "TargetActionComponentA/Classes/CTMediator+ComponentA.h"; sourceTree = "<group>"; };
-		22134B5165F28D5FD438B0FC8B641720 /* TargetActionComponentB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TargetActionComponentB-prefix.pch"; sourceTree = "<group>"; };
+		0203C174C64959A8FE18C93B88840D9B /* MAOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlay.h; path = MAMapKit.framework/Headers/MAOverlay.h; sourceTree = "<group>"; };
+		02C37FA5D5B380B1D0726F76132E0FD2 /* NSMutableArray+AMapSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+AMapSafe.h"; path = "AMapFoundationKit.framework/Headers/NSMutableArray+AMapSafe.h"; sourceTree = "<group>"; };
+		0369B97AE1BC7BA5EB87DFD611CF45CE /* TargetActionComponentB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TargetActionComponentB.xcconfig; sourceTree = "<group>"; };
+		06FDAFE29F37503684372FBBB420A983 /* MAShape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAShape.h; path = MAMapKit.framework/Headers/MAShape.h; sourceTree = "<group>"; };
+		09484960E5BD0F2AE1CE8464FFBED272 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0A3F03E9ACDEC7ED7996B41BF34DC82D /* HQAddressModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HQAddressModel.m; path = HQMapComponent/Classes/HQAddressModel.m; sourceTree = "<group>"; };
+		125F14F35D5172B200F29191F74974D5 /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
+		12A04DFD44D1C33BD689B9ABE60338E0 /* HQMapComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HQMapComponent-dummy.m"; sourceTree = "<group>"; };
+		12A0B882EB957A11D009870D7DFA44E8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		12D0CE2082F531037C4CA180433AAC02 /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapLocationKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AMapLocationKit.framework; sourceTree = DEVELOPER_DIR; };
+		20D13B5AD2C433C0091906E8F959660C /* Target_HQMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_HQMap.h; path = HQMapComponent/Classes/Target_HQMap.h; sourceTree = "<group>"; };
+		245FCF723097C8187BD469019335E226 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		2684E7D30E62307B845B6706ED878826 /* AMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
+		283E30DB1D3B461B90DC46C92DD91D51 /* HQAddressModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HQAddressModel.h; path = HQMapComponent/Classes/HQAddressModel.h; sourceTree = "<group>"; };
+		2A4E07191CC2BA84C20B65B3C11AFB9F /* MACircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACircle.h; path = MAMapKit.framework/Headers/MACircle.h; sourceTree = "<group>"; };
 		2F8DEE8322ACB74E457D4B298ACEA0A3 /* Pods-TargetActionProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TargetActionProject-frameworks.sh"; sourceTree = "<group>"; };
-		3A10CF9D947B3E3C84C779A645B3FE63 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		2FF81DC9A7F98A647BC588958B697D06 /* MAGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlay.h; path = MAMapKit.framework/Headers/MAGroundOverlay.h; sourceTree = "<group>"; };
+		3031A2F933621857F109CDD8B7F83DC0 /* NSObject+AMapJsonSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+AMapJsonSerialization.h"; path = "AMapFoundationKit.framework/Headers/NSObject+AMapJsonSerialization.h"; sourceTree = "<group>"; };
+		31175D8D1C28965A31E1E49199F3B874 /* TargetActionComponentB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TargetActionComponentB-dummy.m"; sourceTree = "<group>"; };
+		3229847D51DB235A9F7FC8B9F8A8D1E4 /* AMapSearchAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchAPI.h; path = AMapSearchKit.framework/Headers/AMapSearchAPI.h; sourceTree = "<group>"; };
+		328133F655906D9C34D6946035459F2F /* MAOfflineMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineMap.h; path = MAMapKit.framework/Headers/MAOfflineMap.h; sourceTree = "<group>"; };
+		33845F3E6F61502A1B19E05C77A34197 /* TargetActionComponentA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TargetActionComponentA-dummy.m"; sourceTree = "<group>"; };
+		3460382B82D532CCDE26D976A51C7AA3 /* CTMediator+ComponentA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+ComponentA.h"; path = "TargetActionComponentA/Classes/CTMediator+ComponentA.h"; sourceTree = "<group>"; };
+		35359B4AD8CFB3AE1FE807BB8BB1407D /* AMapUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapUtility.h; path = AMapFoundationKit.framework/Headers/AMapUtility.h; sourceTree = "<group>"; };
+		36C8EFAC313F1C273CE983892472DC64 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		374338D562132C09E9E77DBD0A7F8E91 /* Target_ComponentA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_ComponentA.m; path = TargetActionComponentA/Classes/Target_ComponentA.m; sourceTree = "<group>"; };
+		39DBB8368E05E74D655F27C80A29F169 /* MAAnnotationMoveAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotationMoveAnimation.h; path = MAMapKit.framework/Headers/MAAnnotationMoveAnimation.h; sourceTree = "<group>"; };
+		3A3BA37D9469DE13D673DF493267E4C7 /* HQMapComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HQMapComponent.xcconfig; sourceTree = "<group>"; };
 		3BE0E1DEDAD83E37EFD907C503FA520E /* Pods-TargetActionProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TargetActionProject.debug.xcconfig"; sourceTree = "<group>"; };
-		3ED0B0B65F7078898BA3BF058A3323AD /* Target_ComponentA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_ComponentA.h; path = TargetActionComponentA/Classes/Target_ComponentA.h; sourceTree = "<group>"; };
-		40A7FD8F5EA14DBEBBB047FB6AC7781C /* TAentryBDetailVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAentryBDetailVC.h; path = TargetActionComponentB/Classes/TAentryBDetailVC.h; sourceTree = "<group>"; };
-		63897E20A7E892304697FA756CB1A2CD /* TargetActionComponentA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TargetActionComponentA.xcconfig; sourceTree = "<group>"; };
+		3CF2051D0E4B04AD8DE6F0677DC6E01F /* MAPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolyline.h; path = MAMapKit.framework/Headers/MAPolyline.h; sourceTree = "<group>"; };
+		3CF45E4CE0DD2618B54C7DC137D43D62 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		3F7C4CEF4488704A3175E140F6A798C0 /* MACustomCalloutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACustomCalloutView.h; path = MAMapKit.framework/Headers/MACustomCalloutView.h; sourceTree = "<group>"; };
+		405028D1F814DD179503E3197487A801 /* HQMapComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQMapComponent-prefix.pch"; sourceTree = "<group>"; };
+		4365FAF666CD2B40AAAE668B36946EDD /* Target_ComponentB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_ComponentB.h; path = TargetActionComponentB/Classes/Target_ComponentB.h; sourceTree = "<group>"; };
+		442C4CAC6CADA3A62CB755F6D34418B3 /* HQMapViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HQMapViewController.m; path = HQMapComponent/Classes/HQMapViewController.m; sourceTree = "<group>"; };
+		461FB8430D80C20161A2004813EA90BC /* MAOfflineItemMunicipality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemMunicipality.h; path = MAMapKit.framework/Headers/MAOfflineItemMunicipality.h; sourceTree = "<group>"; };
+		46935EB5E02ABB29AF69EFF4D3A2671D /* MAUserLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAUserLocation.h; path = MAMapKit.framework/Headers/MAUserLocation.h; sourceTree = "<group>"; };
+		469FC93FB89E0EDE0FDE3807AFA55155 /* TAentryBDetailVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAentryBDetailVC.m; path = TargetActionComponentB/Classes/TAentryBDetailVC.m; sourceTree = "<group>"; };
+		4753B0B68343DC374F83AE9C925F76DA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		47D054CC18AA890A4C9120FF16C29B0E /* Target_ComponentB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_ComponentB.m; path = TargetActionComponentB/Classes/Target_ComponentB.m; sourceTree = "<group>"; };
+		497FE15A5A62FC381921C9E56F162920 /* AMapGeoFenceRegionObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapGeoFenceRegionObj.h; path = AMapLocationKit.framework/Headers/AMapGeoFenceRegionObj.h; sourceTree = "<group>"; };
+		4A6D2F6179EECE472D953082B46DCF8E /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		4D6D307EBDB89C53C0A3A95EA2402FF8 /* MAMultiPointOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPointOverlayRenderer.h; path = MAMapKit.framework/Headers/MAMultiPointOverlayRenderer.h; sourceTree = "<group>"; };
+		4DECE50E8849D4F21FBF2B9A76123BFC /* AMapFoundationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationKit.h; path = AMapFoundationKit.framework/Headers/AMapFoundationKit.h; sourceTree = "<group>"; };
+		4E5737EBBB85D62D82232CB92679FF79 /* AMapURLSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearch.h; path = AMapFoundationKit.framework/Headers/AMapURLSearch.h; sourceTree = "<group>"; };
+		4EC5F058B5C868F0E98A5BFA14DC2A97 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapFoundationKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AMapFoundationKit.framework; sourceTree = DEVELOPER_DIR; };
+		4F4A8D5EDBF16D127F744455D19E3ECA /* libPods-TargetActionProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TargetActionProject.a"; path = "libPods-TargetActionProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD4AD7B77B340C17519297F07CF8CAB /* MAMultiPointOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPointOverlay.h; path = MAMapKit.framework/Headers/MAMultiPointOverlay.h; sourceTree = "<group>"; };
+		531C662A2C65AE1954FA754A38399D38 /* AMapLocationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationVersion.h; path = AMapLocationKit.framework/Headers/AMapLocationVersion.h; sourceTree = "<group>"; };
+		54EC1642CBE810DA3EB63FAB16E8B6A3 /* MACustomBuildingOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACustomBuildingOverlay.h; path = MAMapKit.framework/Headers/MACustomBuildingOverlay.h; sourceTree = "<group>"; };
+		54F0D9B3F10EB9373C6F8BC4203D2398 /* libHQMapComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHQMapComponent.a; path = libHQMapComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		553A560EA2908248A26786F09C4F3545 /* AMapFoundationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationVersion.h; path = AMapFoundationKit.framework/Headers/AMapFoundationVersion.h; sourceTree = "<group>"; };
+		58DF0317215AA54E5490A6DDE89CBABA /* MATraceLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATraceLocation.h; path = MAMapKit.framework/Headers/MATraceLocation.h; sourceTree = "<group>"; };
+		597AA4BB68036AA0B17615664DACDD1C /* MAPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygon.h; path = MAMapKit.framework/Headers/MAPolygon.h; sourceTree = "<group>"; };
+		5C86191C41ECD5A10CEEDC9FFFD96455 /* TargetActionComponentB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TargetActionComponentB-prefix.pch"; sourceTree = "<group>"; };
+		5CCE2E50E8C88487B030D3A8210FE08F /* HQLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HQLocationManager.h; path = HQMapComponent/Classes/HQLocationManager.h; sourceTree = "<group>"; };
+		639003F9EED353121F43889C1C949C4B /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		643CD5C682CC45F6C60DCA3C771A48BE /* TAentryADetailVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAentryADetailVC.m; path = TargetActionComponentA/Classes/TAentryADetailVC.m; sourceTree = "<group>"; };
 		64430261CE9572E04C3A47FA18FFFEDB /* Pods-TargetActionProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TargetActionProject-resources.sh"; sourceTree = "<group>"; };
-		6449F4B06D989C56C374207669A95C89 /* TargetActionComponentB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TargetActionComponentB.xcconfig; sourceTree = "<group>"; };
-		6686B6D734C81A1F1FDBE0734371F6B8 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
-		6A7827B68A494A874D6E5124041A52CC /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
-		6D12497098C8301D48E186BDE208C85E /* Target_ComponentA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_ComponentA.m; path = TargetActionComponentA/Classes/Target_ComponentA.m; sourceTree = "<group>"; };
-		6D44BA1778A0971E9B1E4D9A8F4C5B98 /* TAEntreyAVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAEntreyAVC.h; path = TargetActionComponentA/Classes/TAEntreyAVC.h; sourceTree = "<group>"; };
-		706FC59597A17B6385872A91CCCBB84D /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
-		75074553A2CC7D968C1F0580A0F3F75A /* TAEntreyBVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAEntreyBVC.h; path = TargetActionComponentB/Classes/TAEntreyBVC.h; sourceTree = "<group>"; };
-		8FA519DFD1F8B3996913F83E62D78431 /* Target_ComponentB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_ComponentB.m; path = TargetActionComponentB/Classes/Target_ComponentB.m; sourceTree = "<group>"; };
-		9230621325951091899D11433225B81B /* TargetActionComponentA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TargetActionComponentA-dummy.m"; sourceTree = "<group>"; };
+		64E0211CA79F88A2A2D499B07E2D6BD3 /* CTMediator+HQMapComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HQMapComponent.m"; path = "HQMapComponent/Classes/CTMediator+HQMapComponent.m"; sourceTree = "<group>"; };
+		65C0F379F43A7CB88B13EC44F8861968 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		666DD36DD2C0BC804D29CF94DB0594B1 /* MAUserLocationRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAUserLocationRepresentation.h; path = MAMapKit.framework/Headers/MAUserLocationRepresentation.h; sourceTree = "<group>"; };
+		67A0C6CB9ED4787C7C48CDFCB4355848 /* MAOverlayPathRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayPathRenderer.h; path = MAMapKit.framework/Headers/MAOverlayPathRenderer.h; sourceTree = "<group>"; };
+		69E9C5C1CA633941809244F5ACB6D360 /* MACircleRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACircleRenderer.h; path = MAMapKit.framework/Headers/MACircleRenderer.h; sourceTree = "<group>"; };
+		6A986A547D03C38F4DA3DAD1E8906CBF /* MALineDrawType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MALineDrawType.h; path = MAMapKit.framework/Headers/MALineDrawType.h; sourceTree = "<group>"; };
+		6B04BB25C669F37455CAE57CA636EEF7 /* MAMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapView.h; path = MAMapKit.framework/Headers/MAMapView.h; sourceTree = "<group>"; };
+		6B7750814C6024C1BC8763873C43D39C /* MAMapKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapKit.h; path = MAMapKit.framework/Headers/MAMapKit.h; sourceTree = "<group>"; };
+		6B823A527424A7336F83DC23B444861A /* AMapNearbyUploadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNearbyUploadInfo.h; path = AMapSearchKit.framework/Headers/AMapNearbyUploadInfo.h; sourceTree = "<group>"; };
+		6C99F801E6C3A095130BFD62E47924A9 /* HQMapViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HQMapViewController.h; path = HQMapComponent/Classes/HQMapViewController.h; sourceTree = "<group>"; };
+		6D538389EFF5258BBCB3A21EE5FA4010 /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCTMediator.a; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5A4B9C6AB1A634DC6080E670036048 /* MAConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAConfig.h; path = MAMapKit.framework/Headers/MAConfig.h; sourceTree = "<group>"; };
+		6F7C22B895A5E6BF82F157C6D8750451 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		702D49161EDB3FF72161DA1D91064FE4 /* MAOfflineMapViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineMapViewController.h; path = MAMapKit.framework/Headers/MAOfflineMapViewController.h; sourceTree = "<group>"; };
+		705674E91327CF50EB57DAEA17118C87 /* TAentryADetailVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAentryADetailVC.h; path = TargetActionComponentA/Classes/TAentryADetailVC.h; sourceTree = "<group>"; };
+		735276251AD8FAF3BB19D95BEF3B1765 /* CTMediator+ComponentB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+ComponentB.h"; path = "TargetActionComponentB/Classes/CTMediator+ComponentB.h"; sourceTree = "<group>"; };
+		739E793EF251ACE8F5711D9B6562BFFF /* AMapLocationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationKit.h; path = AMapLocationKit.framework/Headers/AMapLocationKit.h; sourceTree = "<group>"; };
+		79B4EDD03C3AE1C09E4CB43730288D8F /* TAEntreyBVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAEntreyBVC.m; path = TargetActionComponentB/Classes/TAEntreyBVC.m; sourceTree = "<group>"; };
+		7A8A407F88D0369D76D71EE8922E6192 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		7E6DB39A0FFC6E20599667D0CE2157AA /* MAIndoorInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAIndoorInfo.h; path = MAMapKit.framework/Headers/MAIndoorInfo.h; sourceTree = "<group>"; };
+		7E9423DDD6446CB85909AE5A770F1675 /* AMapLocationCommonObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationCommonObj.h; path = AMapLocationKit.framework/Headers/AMapLocationCommonObj.h; sourceTree = "<group>"; };
+		7EB390FAE16624EA3B4A2EF11173AB10 /* MACustomBuildingOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACustomBuildingOverlayRenderer.h; path = MAMapKit.framework/Headers/MACustomBuildingOverlayRenderer.h; sourceTree = "<group>"; };
+		8064B47AC420717265AA06ABBB2F39D2 /* MATouchPoi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATouchPoi.h; path = MAMapKit.framework/Headers/MATouchPoi.h; sourceTree = "<group>"; };
+		8098FC825F01AC2001059C2A249A37F8 /* MATileOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATileOverlay.h; path = MAMapKit.framework/Headers/MATileOverlay.h; sourceTree = "<group>"; };
+		84A050CDA80172E17EE186AEBD07524E /* MAGeodesicPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGeodesicPolyline.h; path = MAMapKit.framework/Headers/MAGeodesicPolyline.h; sourceTree = "<group>"; };
+		84AA61D52CBBCB2E4B0D5BFBE2386310 /* MAPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolylineRenderer.h; path = MAMapKit.framework/Headers/MAPolylineRenderer.h; sourceTree = "<group>"; };
+		84DE245D7FA8F687D4ACF69268E840CF /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		88C9E265408B4181262B6D553A17954C /* AMapURLSearchConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchConfig.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchConfig.h; sourceTree = "<group>"; };
+		89346328E891BC268C23F400FD629472 /* TAentryBDetailVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAentryBDetailVC.h; path = TargetActionComponentB/Classes/TAentryBDetailVC.h; sourceTree = "<group>"; };
+		899AC07C52277ABEB693BE735AC55E39 /* AMapGeoFenceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapGeoFenceManager.h; path = AMapLocationKit.framework/Headers/AMapGeoFenceManager.h; sourceTree = "<group>"; };
+		8BDFF0AFE53B7BD9D988E3F738D03FFD /* AMapNearbySearchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNearbySearchManager.h; path = AMapSearchKit.framework/Headers/AMapNearbySearchManager.h; sourceTree = "<group>"; };
+		8C67F0CE21281A4CBD7E87C687276892 /* MAOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayRenderer.h; path = MAMapKit.framework/Headers/MAOverlayRenderer.h; sourceTree = "<group>"; };
+		8E1DFAC992D8709F065A202B265CA028 /* Target_HQMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_HQMap.m; path = HQMapComponent/Classes/Target_HQMap.m; sourceTree = "<group>"; };
+		8FB6910E6C5881895262AA67BEDC8D89 /* libTargetActionComponentB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTargetActionComponentB.a; path = libTargetActionComponentB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A12BCAE44FEA20F35B320BCB265B4B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		92434C014D822F3BDE35C265F7AA37CA /* CTMediator+ComponentA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+ComponentA.m"; path = "TargetActionComponentA/Classes/CTMediator+ComponentA.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96D247482AD3480E7ABBC0EEE644C8F5 /* TAEntreyBVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAEntreyBVC.m; path = TargetActionComponentB/Classes/TAEntreyBVC.m; sourceTree = "<group>"; };
+		959AF41FBCF51D3A7F51E6AAA84AE03B /* MAArc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAArc.h; path = MAMapKit.framework/Headers/MAArc.h; sourceTree = "<group>"; };
+		987E74A4159D8A6710ACB6B90553626B /* JavaScriptcore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptcore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/JavaScriptcore.framework; sourceTree = DEVELOPER_DIR; };
+		98B655AC02381AA9BEFD6FF3F2B362C7 /* MAGroundOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlayRenderer.h; path = MAMapKit.framework/Headers/MAGroundOverlayRenderer.h; sourceTree = "<group>"; };
 		99283B46D41F3072A68DBF64D97D4958 /* Pods-TargetActionProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TargetActionProject-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A56560E4B6BF82EF762D8AC88D8C5737 /* TAentryADetailVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAentryADetailVC.m; path = TargetActionComponentA/Classes/TAentryADetailVC.m; sourceTree = "<group>"; };
+		99962D1DE132A75C6748EFD3D237AC33 /* AMapLocationRegionObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationRegionObj.h; path = AMapLocationKit.framework/Headers/AMapLocationRegionObj.h; sourceTree = "<group>"; };
+		9EB1936697591D9285EF8FD647C87279 /* MAMapVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapVersion.h; path = MAMapKit.framework/Headers/MAMapVersion.h; sourceTree = "<group>"; };
+		9FE05770E84B012BC6A9E9B12A70A69E /* AMapCommonObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapCommonObj.h; path = AMapSearchKit.framework/Headers/AMapCommonObj.h; sourceTree = "<group>"; };
+		A53B36585306E54A7D45939C87F474BF /* MAOfflineProvince.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineProvince.h; path = MAMapKit.framework/Headers/MAOfflineProvince.h; sourceTree = "<group>"; };
+		A5B4142BD67E21C84B3A60AABEBC2C69 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		A6296EA516BA46B023F5FCAD3B93B342 /* Pods-TargetActionProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TargetActionProject.release.xcconfig"; sourceTree = "<group>"; };
+		A6385EC6CB9BFB9D9CE113C6F813308F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		A6DD361BA7681E9EC671417BBB21234A /* HQLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HQLocationManager.m; path = HQMapComponent/Classes/HQLocationManager.m; sourceTree = "<group>"; };
+		AA8B3D1756770CA3A669FF4D42AF92F3 /* MAMapAccessibilityIdentifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapAccessibilityIdentifier.h; path = MAMapKit.framework/Headers/MAMapAccessibilityIdentifier.h; sourceTree = "<group>"; };
+		AC473272D8A0D8E2AD3DBB3179ADAE25 /* TAEntreyAVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAEntreyAVC.h; path = TargetActionComponentA/Classes/TAEntreyAVC.h; sourceTree = "<group>"; };
+		ACDDBBF4ACAA24A24F40A04313D1B81B /* AMapSearchObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchObj.h; path = AMapSearchKit.framework/Headers/AMapSearchObj.h; sourceTree = "<group>"; };
+		AECCD120270D08E92815F3F13AF6C025 /* MAPointAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPointAnnotation.h; path = MAMapKit.framework/Headers/MAPointAnnotation.h; sourceTree = "<group>"; };
+		AF853DE3B2B1AD768368F8F294916876 /* MAOfflineItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItem.h; path = MAMapKit.framework/Headers/MAOfflineItem.h; sourceTree = "<group>"; };
+		B035CB1C254D153ECAE31AD0C1705F03 /* MAMultiPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPolyline.h; path = MAMapKit.framework/Headers/MAMultiPolyline.h; sourceTree = "<group>"; };
+		B1DB0B8A7AA39CDCE1F211ACDC2837FE /* MAHeatMapTileOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAHeatMapTileOverlay.h; path = MAMapKit.framework/Headers/MAHeatMapTileOverlay.h; sourceTree = "<group>"; };
+		B731D6A5C9261050C1BBD6FA79B889AF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		B941FF53BAB1106F9B12ABCB39D5B425 /* CTMediator+ComponentB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+ComponentB.m"; path = "TargetActionComponentB/Classes/CTMediator+ComponentB.m"; sourceTree = "<group>"; };
+		B9B5DFD7ABA64E354A47F5EEEB64372F /* MAAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotationView.h; path = MAMapKit.framework/Headers/MAAnnotationView.h; sourceTree = "<group>"; };
 		BA7DA2BA52A790859866EAFC9E5D07AA /* Pods-TargetActionProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TargetActionProject-acknowledgements.plist"; sourceTree = "<group>"; };
-		C04A6DF70B32BDEC22AFCE0462FD90BB /* CTMediator+ComponentB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+ComponentB.m"; path = "TargetActionComponentB/Classes/CTMediator+ComponentB.m"; sourceTree = "<group>"; };
-		C0C3D46523E7ABDCE2FF340E6CF9DDEB /* TAentryBDetailVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAentryBDetailVC.m; path = TargetActionComponentB/Classes/TAentryBDetailVC.m; sourceTree = "<group>"; };
-		C5D296CE699082581C0C92AE5C1DDFAE /* TargetActionComponentA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TargetActionComponentA-prefix.pch"; sourceTree = "<group>"; };
-		C63E3237259FC12A9711775B657F1316 /* TAentryADetailVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAentryADetailVC.h; path = TargetActionComponentA/Classes/TAentryADetailVC.h; sourceTree = "<group>"; };
-		C66F365E896E4E6A8EC05284D7F4CD7E /* libPods-TargetActionProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TargetActionProject.a"; path = "libPods-TargetActionProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C745B064E8364F15B166A151FD3237A1 /* TAEntreyAVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAEntreyAVC.m; path = TargetActionComponentA/Classes/TAEntreyAVC.m; sourceTree = "<group>"; };
-		C8B1F3B41879ACEFF902C3BFBC302822 /* TargetActionComponentB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TargetActionComponentB-dummy.m"; sourceTree = "<group>"; };
-		CC79E2F271BAE2A479381ABDCE83FC48 /* Target_ComponentB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_ComponentB.h; path = TargetActionComponentB/Classes/Target_ComponentB.h; sourceTree = "<group>"; };
+		C731DE70FB2D066E698873F55D1539CF /* AMapSearchKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchKit.h; path = AMapSearchKit.framework/Headers/AMapSearchKit.h; sourceTree = "<group>"; };
+		C812F76433B0C6BE2D340A2E6D0E9E66 /* MAGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGeometry.h; path = MAMapKit.framework/Headers/MAGeometry.h; sourceTree = "<group>"; };
+		C866785D201C2EC2A58C34231C5A512D /* MAPinAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPinAnnotationView.h; path = MAMapKit.framework/Headers/MAPinAnnotationView.h; sourceTree = "<group>"; };
+		CB41611523387F581D567199B3C25EAD /* MAMultiColoredPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiColoredPolylineRenderer.h; path = MAMapKit.framework/Headers/MAMultiColoredPolylineRenderer.h; sourceTree = "<group>"; };
 		CE32C68608454A94D82D399109BD8E61 /* Pods-TargetActionProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TargetActionProject-dummy.m"; sourceTree = "<group>"; };
-		D1B429BDA0E920AC5A613D96F86D9F28 /* libTargetActionComponentB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTargetActionComponentB.a; path = libTargetActionComponentB.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D96B5D245F8223918D4C870ED1777FB3 /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCTMediator.a; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD46FBC041420035C341CC6342582587 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E6AB94BB0856DFFBFF66EE6B2BA2651E /* libTargetActionComponentA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTargetActionComponentA.a; path = libTargetActionComponentA.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F162A35EB50E21ABB9B6E49BF8BC4E0B /* CTMediator+ComponentA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+ComponentA.m"; path = "TargetActionComponentA/Classes/CTMediator+ComponentA.m"; sourceTree = "<group>"; };
-		FC883DE28A81C6D716BFAF0971CA0135 /* CTMediator+ComponentB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+ComponentB.h"; path = "TargetActionComponentB/Classes/CTMediator+ComponentB.h"; sourceTree = "<group>"; };
+		CE7BBEAF6F2C032B87C1AF07F290DEF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CFF6CD678205A2F0CC8C4D252E17FED3 /* AMapSearchVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchVersion.h; path = AMapSearchKit.framework/Headers/AMapSearchVersion.h; sourceTree = "<group>"; };
+		D2F25FF6BFF5477C00898AA4D251B0EA /* MAMultiTexturePolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiTexturePolylineRenderer.h; path = MAMapKit.framework/Headers/MAMultiTexturePolylineRenderer.h; sourceTree = "<group>"; };
+		D3D8E79B79EF67836E55ED93785D442A /* MAPolygonRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygonRenderer.h; path = MAMapKit.framework/Headers/MAPolygonRenderer.h; sourceTree = "<group>"; };
+		D3EC7DE4694C29B03175AF2A85776417 /* AMapURLSearchType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchType.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchType.h; sourceTree = "<group>"; };
+		D9B6C0EBDF20A1E37E35E52A6764BD5F /* MAAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotation.h; path = MAMapKit.framework/Headers/MAAnnotation.h; sourceTree = "<group>"; };
+		DA6E6F6ADD734D7447DC50FA70FF6689 /* MAMultiPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPoint.h; path = MAMapKit.framework/Headers/MAMultiPoint.h; sourceTree = "<group>"; };
+		DA925ECE7F37AB1F07A92C3418D8027F /* TargetActionComponentA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TargetActionComponentA.xcconfig; sourceTree = "<group>"; };
+		DB2B3B946309D6C71B5C0A9C9C245BD5 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAMapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MAMapKit.framework; sourceTree = DEVELOPER_DIR; };
+		DEF962E72EEAD1F3F7FB28F1668D8C5F /* MATraceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATraceManager.h; path = MAMapKit.framework/Headers/MATraceManager.h; sourceTree = "<group>"; };
+		E0FAF3F0C533CCA3799DED809EE46BE8 /* TargetActionComponentA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TargetActionComponentA-prefix.pch"; sourceTree = "<group>"; };
+		E135B310E060B6A0E9BF50D1D45D1FDD /* MATileOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATileOverlayRenderer.h; path = MAMapKit.framework/Headers/MATileOverlayRenderer.h; sourceTree = "<group>"; };
+		E4CD8EA976489E975D50AE39111D4672 /* TAEntreyBVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAEntreyBVC.h; path = TargetActionComponentB/Classes/TAEntreyBVC.h; sourceTree = "<group>"; };
+		E4DBBA3FF59B00403AAA14333DA49A07 /* MAMapStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapStatus.h; path = MAMapKit.framework/Headers/MAMapStatus.h; sourceTree = "<group>"; };
+		E779FF1353A087B882C6E8E9710D5F70 /* AMapLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationManager.h; path = AMapLocationKit.framework/Headers/AMapLocationManager.h; sourceTree = "<group>"; };
+		E804688CDBDD379213047FF58592DC29 /* MAAnimatedAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnimatedAnnotation.h; path = MAMapKit.framework/Headers/MAAnimatedAnnotation.h; sourceTree = "<group>"; };
+		EA1666EFFAA8DC65316C00D8F6E5DA68 /* AMapSearchError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchError.h; path = AMapSearchKit.framework/Headers/AMapSearchError.h; sourceTree = "<group>"; };
+		EA7E2C3DF62A46B31F9C6526E0870691 /* AMapServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapServices.h; path = AMapFoundationKit.framework/Headers/AMapServices.h; sourceTree = "<group>"; };
+		EEFAC73E5DBBDC02872BE24D3F85EFFC /* libTargetActionComponentA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTargetActionComponentA.a; path = libTargetActionComponentA.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F280E33F6F13B474E7389B05A53BCC38 /* CTMediator+HQMapComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HQMapComponent.h"; path = "HQMapComponent/Classes/CTMediator+HQMapComponent.h"; sourceTree = "<group>"; };
+		F4A1F58FDE4287A7067B59CC0EE5A884 /* MAArcRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAArcRenderer.h; path = MAMapKit.framework/Headers/MAArcRenderer.h; sourceTree = "<group>"; };
+		F5A08906564877D23BEDEF153A44D3E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F8DC98E206A0C7668FB1E49E939D7533 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		F8EE193A182D7E1973E6FE174DB4699B /* MAOfflineItemNationWide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemNationWide.h; path = MAMapKit.framework/Headers/MAOfflineItemNationWide.h; sourceTree = "<group>"; };
+		F8F3A719C494EB4AC4DCFACAD2F195FB /* AMapGeoFenceError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapGeoFenceError.h; path = AMapLocationKit.framework/Headers/AMapGeoFenceError.h; sourceTree = "<group>"; };
+		F9216070E273D1B7066DF00EE1F9D343 /* TAEntreyAVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAEntreyAVC.m; path = TargetActionComponentA/Classes/TAEntreyAVC.m; sourceTree = "<group>"; };
+		F9809C25A430EF7B289756BC4B2ECC99 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapSearchKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AMapSearchKit.framework; sourceTree = DEVELOPER_DIR; };
+		FABA102AD57BF996081423CE73736E68 /* MAOfflineCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineCity.h; path = MAMapKit.framework/Headers/MAOfflineCity.h; sourceTree = "<group>"; };
+		FB09C38E8BF0FD4E9A60AD5AAB4CDDF6 /* Target_ComponentA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_ComponentA.h; path = TargetActionComponentA/Classes/Target_ComponentA.h; sourceTree = "<group>"; };
+		FD72C4555BD11C0AE734548A868A43E3 /* NSMutableDictionary+AMapSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+AMapSafe.h"; path = "AMapFoundationKit.framework/Headers/NSMutableDictionary+AMapSafe.h"; sourceTree = "<group>"; };
+		FE4B9A6D6FC1E2F59455255BD7054E99 /* MAOfflineItemCommonCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemCommonCity.h; path = MAMapKit.framework/Headers/MAOfflineItemCommonCity.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		198FA0D6A61C3D4CBB5CE7DC8ABB63EE /* Frameworks */ = {
+		19B4F780333E89EA8AA0174A4B3692FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50DCE8B83DDCA43674AAC0915B93FF9E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D5035CCBB8908ADA16492DBB1FE687A /* Frameworks */ = {
+		5D60F063A0A9F3E50AC1E37BBFA67B52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -143,35 +292,103 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C6FBF40F34EA816D735F7C6A60EA431A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1B7FACC64714D676B7790F1E8D295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27667CC1D2AD54FFAB29026420BC37D9 /* AdSupport.framework in Frameworks */,
+				F1B99A343F023326F827728901FCEFB2 /* AMapFoundationKit.framework in Frameworks */,
+				CDD47579EA87B2381FABD13623C37BE1 /* AMapLocationKit.framework in Frameworks */,
+				48E2EA85CF94D8A8C0AA4B1D728D710D /* AMapSearchKit.framework in Frameworks */,
+				9BDF3BB28DFA63895CAF3E4A6C455831 /* CoreGraphics.framework in Frameworks */,
+				EEF577F6AA6881916A3D3F038BCC6347 /* CoreLocation.framework in Frameworks */,
+				47EBDBADCAF1B41524E32034B9387FA7 /* CoreTelephony.framework in Frameworks */,
+				01C3D1ED6D9CA9BC8649F87DE27EEB37 /* Foundation.framework in Frameworks */,
+				9F1787B47526D8EDFACF451DB62B23AC /* GLKit.framework in Frameworks */,
+				8B2C097ECC15B6857C3CCA65AA5AF353 /* JavaScriptcore.framework in Frameworks */,
+				352BA8BA8CF4018208E756728FB74842 /* MAMapKit.framework in Frameworks */,
+				B91090EA5F588E09AB8DE5A4AF2EC33A /* OpenGLES.framework in Frameworks */,
+				79C038290BA5A35F49223EBA7298034D /* QuartzCore.framework in Frameworks */,
+				BFC06E886D4D3675AD032E6D1FC7451C /* Security.framework in Frameworks */,
+				247A56C7BD884D7A3622EEF3D76FDF48 /* SystemConfiguration.framework in Frameworks */,
+				FF877BA14B9F691786FC9A7B1EAAD537 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27E34F86CF3AF6B25B76EB4740E7FC05 /* TargetActionComponentA */ = {
+		0D9FF5F3EF7B0E043DDD90D3224473DF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				17AB766CF8D5933305E6A8FB212D5187 /* CTMediator+ComponentA.h */,
-				F162A35EB50E21ABB9B6E49BF8BC4E0B /* CTMediator+ComponentA.m */,
-				6D44BA1778A0971E9B1E4D9A8F4C5B98 /* TAEntreyAVC.h */,
-				C745B064E8364F15B166A151FD3237A1 /* TAEntreyAVC.m */,
-				C63E3237259FC12A9711775B657F1316 /* TAentryADetailVC.h */,
-				A56560E4B6BF82EF762D8AC88D8C5737 /* TAentryADetailVC.m */,
-				3ED0B0B65F7078898BA3BF058A3323AD /* Target_ComponentA.h */,
-				6D12497098C8301D48E186BDE208C85E /* Target_ComponentA.m */,
-				BBEBDB31E90CA8D4688502C13A93B1AE /* Support Files */,
+				6F7C22B895A5E6BF82F157C6D8750451 /* AdSupport.framework */,
+				4EC5F058B5C868F0E98A5BFA14DC2A97 /* AMapFoundationKit.framework */,
+				12D0CE2082F531037C4CA180433AAC02 /* AMapLocationKit.framework */,
+				F9809C25A430EF7B289756BC4B2ECC99 /* AMapSearchKit.framework */,
+				F5A08906564877D23BEDEF153A44D3E3 /* CoreGraphics.framework */,
+				B731D6A5C9261050C1BBD6FA79B889AF /* CoreLocation.framework */,
+				A6385EC6CB9BFB9D9CE113C6F813308F /* CoreTelephony.framework */,
+				09484960E5BD0F2AE1CE8464FFBED272 /* Foundation.framework */,
+				245FCF723097C8187BD469019335E226 /* GLKit.framework */,
+				987E74A4159D8A6710ACB6B90553626B /* JavaScriptcore.framework */,
+				DB2B3B946309D6C71B5C0A9C9C245BD5 /* MAMapKit.framework */,
+				91A12BCAE44FEA20F35B320BCB265B4B /* OpenGLES.framework */,
+				12A0B882EB957A11D009870D7DFA44E8 /* QuartzCore.framework */,
+				4753B0B68343DC374F83AE9C925F76DA /* Security.framework */,
+				A5B4142BD67E21C84B3A60AABEBC2C69 /* SystemConfiguration.framework */,
+				CE7BBEAF6F2C032B87C1AF07F290DEF4 /* UIKit.framework */,
 			);
-			name = TargetActionComponentA;
-			path = TargetActionComponentA;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		327CC94FAD4FA1D19092B6FAE37567FE /* Products */ = {
+		1AB98E7E1408BAA9C3055B3D3CEDEF37 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D96B5D245F8223918D4C870ED1777FB3 /* libCTMediator.a */,
-				C66F365E896E4E6A8EC05284D7F4CD7E /* libPods-TargetActionProject.a */,
-				E6AB94BB0856DFFBFF66EE6B2BA2651E /* libTargetActionComponentA.a */,
-				D1B429BDA0E920AC5A613D96F86D9F28 /* libTargetActionComponentB.a */,
+				93C08102ED60A3ECB86259B2B19E70E1 /* AMap3DMap */,
+				892B873B11331CE5A58895E529EC537D /* AMapFoundation */,
+				2AE62E86107D66EC653C2DA3A41A8B6D /* AMapLocation */,
+				ECE963D0C629C3A29E03C3E8B8E4DB2D /* AMapSearch */,
+				217BF5A4ECEDD1D6F9AFED66B90F852C /* CTMediator */,
+				E77AB8E710098EA471245B45001750F0 /* HQMapComponent */,
+				5F1BF9BFEB12856BF0182C6D0B0716A2 /* TargetActionComponentA */,
+				E4F89B9E06FEAE2F251E9FC699E3F45E /* TargetActionComponentB */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		217BF5A4ECEDD1D6F9AFED66B90F852C /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				84DE245D7FA8F687D4ACF69268E840CF /* CTMediator.h */,
+				4A6D2F6179EECE472D953082B46DCF8E /* CTMediator.m */,
+				F6B5A61F15DB437AB20889BF05DE3986 /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		2AE62E86107D66EC653C2DA3A41A8B6D /* AMapLocation */ = {
+			isa = PBXGroup;
+			children = (
+				F8F3A719C494EB4AC4DCFACAD2F195FB /* AMapGeoFenceError.h */,
+				899AC07C52277ABEB693BE735AC55E39 /* AMapGeoFenceManager.h */,
+				497FE15A5A62FC381921C9E56F162920 /* AMapGeoFenceRegionObj.h */,
+				7E9423DDD6446CB85909AE5A770F1675 /* AMapLocationCommonObj.h */,
+				739E793EF251ACE8F5711D9B6562BFFF /* AMapLocationKit.h */,
+				E779FF1353A087B882C6E8E9710D5F70 /* AMapLocationManager.h */,
+				99962D1DE132A75C6748EFD3D237AC33 /* AMapLocationRegionObj.h */,
+				531C662A2C65AE1954FA754A38399D38 /* AMapLocationVersion.h */,
+				86CCF82754E299C77ECD84965EC568F4 /* Frameworks */,
+			);
+			name = AMapLocation;
+			path = AMapLocation;
 			sourceTree = "<group>";
 		};
 		5096DC83A659E1764F310D2767F4F945 /* Targets Support Files */ = {
@@ -182,26 +399,44 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5BB7CA720A220E2358980BD0D3BDCB03 /* CTMediator */ = {
+		5E09B148DE787198E98576BC5B48B979 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A10CF9D947B3E3C84C779A645B3FE63 /* CTMediator.h */,
-				706FC59597A17B6385872A91CCCBB84D /* CTMediator.m */,
-				5E133EF95A624D6BF27DA1418C674D95 /* Support Files */,
+				6D538389EFF5258BBCB3A21EE5FA4010 /* libCTMediator.a */,
+				54F0D9B3F10EB9373C6F8BC4203D2398 /* libHQMapComponent.a */,
+				4F4A8D5EDBF16D127F744455D19E3ECA /* libPods-TargetActionProject.a */,
+				EEFAC73E5DBBDC02872BE24D3F85EFFC /* libTargetActionComponentA.a */,
+				8FB6910E6C5881895262AA67BEDC8D89 /* libTargetActionComponentB.a */,
 			);
-			name = CTMediator;
-			path = CTMediator;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		5E133EF95A624D6BF27DA1418C674D95 /* Support Files */ = {
+		5F1BF9BFEB12856BF0182C6D0B0716A2 /* TargetActionComponentA */ = {
 			isa = PBXGroup;
 			children = (
-				6686B6D734C81A1F1FDBE0734371F6B8 /* CTMediator.xcconfig */,
-				6A7827B68A494A874D6E5124041A52CC /* CTMediator-dummy.m */,
-				16674A3120F61520A144A89CEE985ECC /* CTMediator-prefix.pch */,
+				3460382B82D532CCDE26D976A51C7AA3 /* CTMediator+ComponentA.h */,
+				92434C014D822F3BDE35C265F7AA37CA /* CTMediator+ComponentA.m */,
+				AC473272D8A0D8E2AD3DBB3179ADAE25 /* TAEntreyAVC.h */,
+				F9216070E273D1B7066DF00EE1F9D343 /* TAEntreyAVC.m */,
+				705674E91327CF50EB57DAEA17118C87 /* TAentryADetailVC.h */,
+				643CD5C682CC45F6C60DCA3C771A48BE /* TAentryADetailVC.m */,
+				FB09C38E8BF0FD4E9A60AD5AAB4CDDF6 /* Target_ComponentA.h */,
+				374338D562132C09E9E77DBD0A7F8E91 /* Target_ComponentA.m */,
+				BD22B5FA95AFF1849B2BCEF1E46A1BBC /* Support Files */,
+			);
+			name = TargetActionComponentA;
+			path = TargetActionComponentA;
+			sourceTree = "<group>";
+		};
+		6708448918B99D315665A5F10CE53DB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0369B97AE1BC7BA5EB87DFD611CF45CE /* TargetActionComponentB.xcconfig */,
+				31175D8D1C28965A31E1E49199F3B874 /* TargetActionComponentB-dummy.m */,
+				5C86191C41ECD5A10CEEDC9FFFD96455 /* TargetActionComponentB-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/CTMediator";
+			path = "../Target Support Files/TargetActionComponentB";
 			sourceTree = "<group>";
 		};
 		676D9554F65153A42D4593EC3A63618A /* Pods-TargetActionProject */ = {
@@ -219,80 +454,233 @@
 			path = "Target Support Files/Pods-TargetActionProject";
 			sourceTree = "<group>";
 		};
-		68F282D756F3707FA59C26573CE87F6D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6449F4B06D989C56C374207669A95C89 /* TargetActionComponentB.xcconfig */,
-				C8B1F3B41879ACEFF902C3BFBC302822 /* TargetActionComponentB-dummy.m */,
-				22134B5165F28D5FD438B0FC8B641720 /* TargetActionComponentB-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TargetActionComponentB";
-			sourceTree = "<group>";
-		};
-		75A785745C57734707B1F3DA0477CA44 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5BB7CA720A220E2358980BD0D3BDCB03 /* CTMediator */,
-				27E34F86CF3AF6B25B76EB4740E7FC05 /* TargetActionComponentA */,
-				E94D71B2D5CC9773BAF438189DD68C0B /* TargetActionComponentB */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				75A785745C57734707B1F3DA0477CA44 /* Pods */,
-				327CC94FAD4FA1D19092B6FAE37567FE /* Products */,
+				9D3502B914AD5A0E3727E5DC81467C1F /* Frameworks */,
+				1AB98E7E1408BAA9C3055B3D3CEDEF37 /* Pods */,
+				5E09B148DE787198E98576BC5B48B979 /* Products */,
 				5096DC83A659E1764F310D2767F4F945 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BBEBDB31E90CA8D4688502C13A93B1AE /* Support Files */ = {
+		86CCF82754E299C77ECD84965EC568F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				63897E20A7E892304697FA756CB1A2CD /* TargetActionComponentA.xcconfig */,
-				9230621325951091899D11433225B81B /* TargetActionComponentA-dummy.m */,
-				C5D296CE699082581C0C92AE5C1DDFAE /* TargetActionComponentA-prefix.pch */,
+				125F14F35D5172B200F29191F74974D5 /* AMapLocationKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		892B873B11331CE5A58895E529EC537D /* AMapFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				4DECE50E8849D4F21FBF2B9A76123BFC /* AMapFoundationKit.h */,
+				553A560EA2908248A26786F09C4F3545 /* AMapFoundationVersion.h */,
+				EA7E2C3DF62A46B31F9C6526E0870691 /* AMapServices.h */,
+				4E5737EBBB85D62D82232CB92679FF79 /* AMapURLSearch.h */,
+				88C9E265408B4181262B6D553A17954C /* AMapURLSearchConfig.h */,
+				D3EC7DE4694C29B03175AF2A85776417 /* AMapURLSearchType.h */,
+				35359B4AD8CFB3AE1FE807BB8BB1407D /* AMapUtility.h */,
+				02C37FA5D5B380B1D0726F76132E0FD2 /* NSMutableArray+AMapSafe.h */,
+				FD72C4555BD11C0AE734548A868A43E3 /* NSMutableDictionary+AMapSafe.h */,
+				3031A2F933621857F109CDD8B7F83DC0 /* NSObject+AMapJsonSerialization.h */,
+				CE8384E9202442314B9A6B9CE8C7F770 /* Frameworks */,
+			);
+			name = AMapFoundation;
+			path = AMapFoundation;
+			sourceTree = "<group>";
+		};
+		93C08102ED60A3ECB86259B2B19E70E1 /* AMap3DMap */ = {
+			isa = PBXGroup;
+			children = (
+				E804688CDBDD379213047FF58592DC29 /* MAAnimatedAnnotation.h */,
+				D9B6C0EBDF20A1E37E35E52A6764BD5F /* MAAnnotation.h */,
+				39DBB8368E05E74D655F27C80A29F169 /* MAAnnotationMoveAnimation.h */,
+				B9B5DFD7ABA64E354A47F5EEEB64372F /* MAAnnotationView.h */,
+				959AF41FBCF51D3A7F51E6AAA84AE03B /* MAArc.h */,
+				F4A1F58FDE4287A7067B59CC0EE5A884 /* MAArcRenderer.h */,
+				2A4E07191CC2BA84C20B65B3C11AFB9F /* MACircle.h */,
+				69E9C5C1CA633941809244F5ACB6D360 /* MACircleRenderer.h */,
+				6D5A4B9C6AB1A634DC6080E670036048 /* MAConfig.h */,
+				54EC1642CBE810DA3EB63FAB16E8B6A3 /* MACustomBuildingOverlay.h */,
+				7EB390FAE16624EA3B4A2EF11173AB10 /* MACustomBuildingOverlayRenderer.h */,
+				3F7C4CEF4488704A3175E140F6A798C0 /* MACustomCalloutView.h */,
+				84A050CDA80172E17EE186AEBD07524E /* MAGeodesicPolyline.h */,
+				C812F76433B0C6BE2D340A2E6D0E9E66 /* MAGeometry.h */,
+				2FF81DC9A7F98A647BC588958B697D06 /* MAGroundOverlay.h */,
+				98B655AC02381AA9BEFD6FF3F2B362C7 /* MAGroundOverlayRenderer.h */,
+				B1DB0B8A7AA39CDCE1F211ACDC2837FE /* MAHeatMapTileOverlay.h */,
+				7E6DB39A0FFC6E20599667D0CE2157AA /* MAIndoorInfo.h */,
+				6A986A547D03C38F4DA3DAD1E8906CBF /* MALineDrawType.h */,
+				AA8B3D1756770CA3A669FF4D42AF92F3 /* MAMapAccessibilityIdentifier.h */,
+				6B7750814C6024C1BC8763873C43D39C /* MAMapKit.h */,
+				E4DBBA3FF59B00403AAA14333DA49A07 /* MAMapStatus.h */,
+				9EB1936697591D9285EF8FD647C87279 /* MAMapVersion.h */,
+				6B04BB25C669F37455CAE57CA636EEF7 /* MAMapView.h */,
+				CB41611523387F581D567199B3C25EAD /* MAMultiColoredPolylineRenderer.h */,
+				DA6E6F6ADD734D7447DC50FA70FF6689 /* MAMultiPoint.h */,
+				4FD4AD7B77B340C17519297F07CF8CAB /* MAMultiPointOverlay.h */,
+				4D6D307EBDB89C53C0A3A95EA2402FF8 /* MAMultiPointOverlayRenderer.h */,
+				B035CB1C254D153ECAE31AD0C1705F03 /* MAMultiPolyline.h */,
+				D2F25FF6BFF5477C00898AA4D251B0EA /* MAMultiTexturePolylineRenderer.h */,
+				FABA102AD57BF996081423CE73736E68 /* MAOfflineCity.h */,
+				AF853DE3B2B1AD768368F8F294916876 /* MAOfflineItem.h */,
+				FE4B9A6D6FC1E2F59455255BD7054E99 /* MAOfflineItemCommonCity.h */,
+				461FB8430D80C20161A2004813EA90BC /* MAOfflineItemMunicipality.h */,
+				F8EE193A182D7E1973E6FE174DB4699B /* MAOfflineItemNationWide.h */,
+				328133F655906D9C34D6946035459F2F /* MAOfflineMap.h */,
+				702D49161EDB3FF72161DA1D91064FE4 /* MAOfflineMapViewController.h */,
+				A53B36585306E54A7D45939C87F474BF /* MAOfflineProvince.h */,
+				0203C174C64959A8FE18C93B88840D9B /* MAOverlay.h */,
+				67A0C6CB9ED4787C7C48CDFCB4355848 /* MAOverlayPathRenderer.h */,
+				8C67F0CE21281A4CBD7E87C687276892 /* MAOverlayRenderer.h */,
+				C866785D201C2EC2A58C34231C5A512D /* MAPinAnnotationView.h */,
+				AECCD120270D08E92815F3F13AF6C025 /* MAPointAnnotation.h */,
+				597AA4BB68036AA0B17615664DACDD1C /* MAPolygon.h */,
+				D3D8E79B79EF67836E55ED93785D442A /* MAPolygonRenderer.h */,
+				3CF2051D0E4B04AD8DE6F0677DC6E01F /* MAPolyline.h */,
+				84AA61D52CBBCB2E4B0D5BFBE2386310 /* MAPolylineRenderer.h */,
+				06FDAFE29F37503684372FBBB420A983 /* MAShape.h */,
+				8098FC825F01AC2001059C2A249A37F8 /* MATileOverlay.h */,
+				E135B310E060B6A0E9BF50D1D45D1FDD /* MATileOverlayRenderer.h */,
+				8064B47AC420717265AA06ABBB2F39D2 /* MATouchPoi.h */,
+				58DF0317215AA54E5490A6DDE89CBABA /* MATraceLocation.h */,
+				DEF962E72EEAD1F3F7FB28F1668D8C5F /* MATraceManager.h */,
+				46935EB5E02ABB29AF69EFF4D3A2671D /* MAUserLocation.h */,
+				666DD36DD2C0BC804D29CF94DB0594B1 /* MAUserLocationRepresentation.h */,
+				C8A142A312A46A3E007A445E60E051C4 /* Frameworks */,
+				DA5D08DACFFCACF4D75EB1859CE0DBA2 /* Resources */,
+			);
+			name = AMap3DMap;
+			path = AMap3DMap;
+			sourceTree = "<group>";
+		};
+		9D3502B914AD5A0E3727E5DC81467C1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D9FF5F3EF7B0E043DDD90D3224473DF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD22B5FA95AFF1849B2BCEF1E46A1BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA925ECE7F37AB1F07A92C3418D8027F /* TargetActionComponentA.xcconfig */,
+				33845F3E6F61502A1B19E05C77A34197 /* TargetActionComponentA-dummy.m */,
+				E0FAF3F0C533CCA3799DED809EE46BE8 /* TargetActionComponentA-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TargetActionComponentA";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C25DDF51905A83E4A023F4FA95526DC0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF5B08143E740C3777FEB0D3A952141C /* iOS */,
+				3A3BA37D9469DE13D673DF493267E4C7 /* HQMapComponent.xcconfig */,
+				12A04DFD44D1C33BD689B9ABE60338E0 /* HQMapComponent-dummy.m */,
+				405028D1F814DD179503E3197487A801 /* HQMapComponent-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HQMapComponent";
+			sourceTree = "<group>";
+		};
+		C8A142A312A46A3E007A445E60E051C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A8A407F88D0369D76D71EE8922E6192 /* MAMapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E94D71B2D5CC9773BAF438189DD68C0B /* TargetActionComponentB */ = {
+		CE8384E9202442314B9A6B9CE8C7F770 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC883DE28A81C6D716BFAF0971CA0135 /* CTMediator+ComponentB.h */,
-				C04A6DF70B32BDEC22AFCE0462FD90BB /* CTMediator+ComponentB.m */,
-				75074553A2CC7D968C1F0580A0F3F75A /* TAEntreyBVC.h */,
-				96D247482AD3480E7ABBC0EEE644C8F5 /* TAEntreyBVC.m */,
-				40A7FD8F5EA14DBEBBB047FB6AC7781C /* TAentryBDetailVC.h */,
-				C0C3D46523E7ABDCE2FF340E6CF9DDEB /* TAentryBDetailVC.m */,
-				CC79E2F271BAE2A479381ABDCE83FC48 /* Target_ComponentB.h */,
-				8FA519DFD1F8B3996913F83E62D78431 /* Target_ComponentB.m */,
-				68F282D756F3707FA59C26573CE87F6D /* Support Files */,
+				36C8EFAC313F1C273CE983892472DC64 /* AMapFoundationKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA5D08DACFFCACF4D75EB1859CE0DBA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2684E7D30E62307B845B6706ED878826 /* AMap.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E4F89B9E06FEAE2F251E9FC699E3F45E /* TargetActionComponentB */ = {
+			isa = PBXGroup;
+			children = (
+				735276251AD8FAF3BB19D95BEF3B1765 /* CTMediator+ComponentB.h */,
+				B941FF53BAB1106F9B12ABCB39D5B425 /* CTMediator+ComponentB.m */,
+				E4CD8EA976489E975D50AE39111D4672 /* TAEntreyBVC.h */,
+				79B4EDD03C3AE1C09E4CB43730288D8F /* TAEntreyBVC.m */,
+				89346328E891BC268C23F400FD629472 /* TAentryBDetailVC.h */,
+				469FC93FB89E0EDE0FDE3807AFA55155 /* TAentryBDetailVC.m */,
+				4365FAF666CD2B40AAAE668B36946EDD /* Target_ComponentB.h */,
+				47D054CC18AA890A4C9120FF16C29B0E /* Target_ComponentB.m */,
+				6708448918B99D315665A5F10CE53DB0 /* Support Files */,
 			);
 			name = TargetActionComponentB;
 			path = TargetActionComponentB;
 			sourceTree = "<group>";
 		};
-		FF5B08143E740C3777FEB0D3A952141C /* iOS */ = {
+		E77AB8E710098EA471245B45001750F0 /* HQMapComponent */ = {
 			isa = PBXGroup;
 			children = (
-				DD46FBC041420035C341CC6342582587 /* UIKit.framework */,
+				F280E33F6F13B474E7389B05A53BCC38 /* CTMediator+HQMapComponent.h */,
+				64E0211CA79F88A2A2D499B07E2D6BD3 /* CTMediator+HQMapComponent.m */,
+				283E30DB1D3B461B90DC46C92DD91D51 /* HQAddressModel.h */,
+				0A3F03E9ACDEC7ED7996B41BF34DC82D /* HQAddressModel.m */,
+				5CCE2E50E8C88487B030D3A8210FE08F /* HQLocationManager.h */,
+				A6DD361BA7681E9EC671417BBB21234A /* HQLocationManager.m */,
+				6C99F801E6C3A095130BFD62E47924A9 /* HQMapViewController.h */,
+				442C4CAC6CADA3A62CB755F6D34418B3 /* HQMapViewController.m */,
+				20D13B5AD2C433C0091906E8F959660C /* Target_HQMap.h */,
+				8E1DFAC992D8709F065A202B265CA028 /* Target_HQMap.m */,
+				C25DDF51905A83E4A023F4FA95526DC0 /* Support Files */,
 			);
-			name = iOS;
+			name = HQMapComponent;
+			path = HQMapComponent;
+			sourceTree = "<group>";
+		};
+		E82167394963B0AE2601D7301E297981 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65C0F379F43A7CB88B13EC44F8861968 /* AMapSearchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECE963D0C629C3A29E03C3E8B8E4DB2D /* AMapSearch */ = {
+			isa = PBXGroup;
+			children = (
+				9FE05770E84B012BC6A9E9B12A70A69E /* AMapCommonObj.h */,
+				8BDFF0AFE53B7BD9D988E3F738D03FFD /* AMapNearbySearchManager.h */,
+				6B823A527424A7336F83DC23B444861A /* AMapNearbyUploadInfo.h */,
+				3229847D51DB235A9F7FC8B9F8A8D1E4 /* AMapSearchAPI.h */,
+				EA1666EFFAA8DC65316C00D8F6E5DA68 /* AMapSearchError.h */,
+				C731DE70FB2D066E698873F55D1539CF /* AMapSearchKit.h */,
+				ACDDBBF4ACAA24A24F40A04313D1B81B /* AMapSearchObj.h */,
+				CFF6CD678205A2F0CC8C4D252E17FED3 /* AMapSearchVersion.h */,
+				E82167394963B0AE2601D7301E297981 /* Frameworks */,
+			);
+			name = AMapSearch;
+			path = AMapSearch;
+			sourceTree = "<group>";
+		};
+		F6B5A61F15DB437AB20889BF05DE3986 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8DC98E206A0C7668FB1E49E939D7533 /* CTMediator.xcconfig */,
+				639003F9EED353121F43889C1C949C4B /* CTMediator-dummy.m */,
+				3CF45E4CE0DD2618B54C7DC137D43D62 /* CTMediator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,66 +694,115 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64A99BBA5FBCEFDA73FFAC841F50DC9C /* Headers */ = {
+		4B284829E34D7325C4B7FD091CAE5961 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD9A18B75B5D921485C5B3F9E83F2AB /* CTMediator+ComponentA.h in Headers */,
-				02AED234216CBFD9A9F237B7BA5A425F /* TAEntreyAVC.h in Headers */,
-				BAB86D9B55D751FE28AF3DBE6814B93F /* TAentryADetailVC.h in Headers */,
-				9E0D55270C8C4F4D212E1854B13E27AE /* Target_ComponentA.h in Headers */,
+				F2030DA4445D653F7AC165505633DF1E /* CTMediator+ComponentB.h in Headers */,
+				FA12925BD2819D22C65809D1CC8492C6 /* TAEntreyBVC.h in Headers */,
+				1A87809694388D0AF93B225B8C4A838B /* TAentryBDetailVC.h in Headers */,
+				F0C7FDEB83EE441582F5A412E17E069C /* Target_ComponentB.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B74E6BE082C05ACECFD7528BDE42809 /* Headers */ = {
+		637D5553F611B2034E51318FAFE0BDB0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA06244DD8B93F58C8862A4C1FFBAE6 /* CTMediator+ComponentB.h in Headers */,
-				026CF4C28F372BB0AD282069C0245DAE /* TAEntreyBVC.h in Headers */,
-				A79268F074EA80FA44575FE1C82B632C /* TAentryBDetailVC.h in Headers */,
-				EA54903B81FFD5DA990686EA53806F30 /* Target_ComponentB.h in Headers */,
+				33109C8C6BC911515C7CC2BB8D9E71E4 /* CTMediator+HQMapComponent.h in Headers */,
+				212E6A5E2B7A9A95CE75583FC725E5DA /* HQAddressModel.h in Headers */,
+				2624197D1C7A92479F5AD39E41165F67 /* HQLocationManager.h in Headers */,
+				4510559266384F37A539946B045D0F29 /* HQMapViewController.h in Headers */,
+				3C6DCA63C51C980F959998B2569E16D9 /* Target_HQMap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D804D338130ACB85C54E256ABEFEBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206C602970ED9133A2F51D45FA9EFD90 /* CTMediator+ComponentA.h in Headers */,
+				BAEE9FE03C2D5C1B71ED606F6C7EA6F5 /* TAEntreyAVC.h in Headers */,
+				E7EB415406BEEA8A6038AE8B4BFA9716 /* TAentryADetailVC.h in Headers */,
+				271A8AE6AB745E935DAD424C2E9A00AE /* Target_ComponentA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CB53EB3EC046D02897DF64C49D19C4F5 /* TargetActionComponentB */ = {
+		38C2F75D20814A75C598568FD7F09C4E /* TargetActionComponentA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4316D882D4949E7AD968580E55B95FD7 /* Build configuration list for PBXNativeTarget "TargetActionComponentB" */;
+			buildConfigurationList = A0C785775FE1C79AA870B675A55979F7 /* Build configuration list for PBXNativeTarget "TargetActionComponentA" */;
 			buildPhases = (
-				3D503A545E1727FA617F6DF448CD3383 /* Sources */,
-				9D5035CCBB8908ADA16492DBB1FE687A /* Frameworks */,
-				8B74E6BE082C05ACECFD7528BDE42809 /* Headers */,
+				23E87AD8B7057995BBC40EB7E394E71A /* Sources */,
+				5D60F063A0A9F3E50AC1E37BBFA67B52 /* Frameworks */,
+				C7D804D338130ACB85C54E256ABEFEBA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				51D045E56267BEC01171C7EB2EFDF706 /* PBXTargetDependency */,
+				FB32E0F76A938AAC24F4EAA3F1F2757D /* PBXTargetDependency */,
 			);
-			name = TargetActionComponentB;
-			productName = TargetActionComponentB;
-			productReference = D1B429BDA0E920AC5A613D96F86D9F28 /* libTargetActionComponentB.a */;
+			name = TargetActionComponentA;
+			productName = TargetActionComponentA;
+			productReference = EEFAC73E5DBBDC02872BE24D3F85EFFC /* libTargetActionComponentA.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D4C77BDE9CD4009361B66863A7961AF6 /* Pods-TargetActionProject */ = {
+		AF8AE00948E1A840A60FA2B81615F906 /* Pods-TargetActionProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9506565C171B750FF36F8AC5E2223A16 /* Build configuration list for PBXNativeTarget "Pods-TargetActionProject" */;
+			buildConfigurationList = 2FA0BBB3019F34733B564866E7D2C366 /* Build configuration list for PBXNativeTarget "Pods-TargetActionProject" */;
 			buildPhases = (
-				DE7E0AE347DE787D8FDC38A41DC587B4 /* Sources */,
-				50DCE8B83DDCA43674AAC0915B93FF9E /* Frameworks */,
+				B64FEFB2CE5383922CACAB952B046E3A /* Sources */,
+				C6FBF40F34EA816D735F7C6A60EA431A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A592397ACCE3DC5DDE3E69A16294B0B9 /* PBXTargetDependency */,
-				1E819462D1EACA41E0B09FA8F1A832A6 /* PBXTargetDependency */,
-				A9D1F76B3B5CD7A4F7A2A5AE76732B10 /* PBXTargetDependency */,
+				AA5C7971C4C8522DFEFFCE78CCBFF98F /* PBXTargetDependency */,
+				F2F91032BC02E8F331BF10BA2F8F563A /* PBXTargetDependency */,
+				5C2AEAFAEDD53232BD26BB05966FA568 /* PBXTargetDependency */,
+				1002AA54D6615533CC6823410CCE97C2 /* PBXTargetDependency */,
 			);
 			name = "Pods-TargetActionProject";
 			productName = "Pods-TargetActionProject";
-			productReference = C66F365E896E4E6A8EC05284D7F4CD7E /* libPods-TargetActionProject.a */;
+			productReference = 4F4A8D5EDBF16D127F744455D19E3ECA /* libPods-TargetActionProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B9F0A55DC1299EC4B42D2C6604C1805F /* TargetActionComponentB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF4782A7D631707E3BB5287F0FD980B /* Build configuration list for PBXNativeTarget "TargetActionComponentB" */;
+			buildPhases = (
+				8EEA3A2BB08F193AC8F74C4DA4DB7B7C /* Sources */,
+				19B4F780333E89EA8AA0174A4B3692FF /* Frameworks */,
+				4B284829E34D7325C4B7FD091CAE5961 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EE1B353FEB758E077D1254BB7C3D200 /* PBXTargetDependency */,
+			);
+			name = TargetActionComponentB;
+			productName = TargetActionComponentB;
+			productReference = 8FB6910E6C5881895262AA67BEDC8D89 /* libTargetActionComponentB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D01D667FC4EFEE49ED901118A7A33A28 /* HQMapComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EC8F90B817BFF3E2CF65BF2F63A7C89 /* Build configuration list for PBXNativeTarget "HQMapComponent" */;
+			buildPhases = (
+				74379B6FEAF733726673ED5B7633575A /* Sources */,
+				CBB1B7FACC64714D676B7790F1E8D295 /* Frameworks */,
+				637D5553F611B2034E51318FAFE0BDB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98DCD6A95592C6DE6C4CAE1EDC7E0CE9 /* PBXTargetDependency */,
+			);
+			name = HQMapComponent;
+			productName = HQMapComponent;
+			productReference = 54F0D9B3F10EB9373C6F8BC4203D2398 /* libHQMapComponent.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */ = {
@@ -382,25 +819,7 @@
 			);
 			name = CTMediator;
 			productName = CTMediator;
-			productReference = D96B5D245F8223918D4C870ED1777FB3 /* libCTMediator.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		ECB1A7A59C6F136BB8572A720B363FBC /* TargetActionComponentA */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C825AE06BC7CEA1285BBBFC9692FD501 /* Build configuration list for PBXNativeTarget "TargetActionComponentA" */;
-			buildPhases = (
-				633E33AC413F8F714264A71732094F3B /* Sources */,
-				198FA0D6A61C3D4CBB5CE7DC8ABB63EE /* Frameworks */,
-				64A99BBA5FBCEFDA73FFAC841F50DC9C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				892AC2BE0BEC34EBB0ED6145346EE6BB /* PBXTargetDependency */,
-			);
-			name = TargetActionComponentA;
-			productName = TargetActionComponentA;
-			productReference = E6AB94BB0856DFFBFF66EE6B2BA2651E /* libTargetActionComponentA.a */;
+			productReference = 6D538389EFF5258BBCB3A21EE5FA4010 /* libCTMediator.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -420,40 +839,29 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 327CC94FAD4FA1D19092B6FAE37567FE /* Products */;
+			productRefGroup = 5E09B148DE787198E98576BC5B48B979 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */,
-				D4C77BDE9CD4009361B66863A7961AF6 /* Pods-TargetActionProject */,
-				ECB1A7A59C6F136BB8572A720B363FBC /* TargetActionComponentA */,
-				CB53EB3EC046D02897DF64C49D19C4F5 /* TargetActionComponentB */,
+				D01D667FC4EFEE49ED901118A7A33A28 /* HQMapComponent */,
+				AF8AE00948E1A840A60FA2B81615F906 /* Pods-TargetActionProject */,
+				38C2F75D20814A75C598568FD7F09C4E /* TargetActionComponentA */,
+				B9F0A55DC1299EC4B42D2C6604C1805F /* TargetActionComponentB */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3D503A545E1727FA617F6DF448CD3383 /* Sources */ = {
+		23E87AD8B7057995BBC40EB7E394E71A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E7343A42CF0BFD86F9280672636A36F /* CTMediator+ComponentB.m in Sources */,
-				9E119EB047BF15D74A22A462464899AB /* TAEntreyBVC.m in Sources */,
-				C83E5555E7269C9883B96E41D223613D /* TAentryBDetailVC.m in Sources */,
-				4498656C77090D1554534DAA0427E74C /* Target_ComponentB.m in Sources */,
-				2AFCF0D722CBA38C247A7EAF6B484E96 /* TargetActionComponentB-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		633E33AC413F8F714264A71732094F3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFA27D038554019F3A293341ABC0032D /* CTMediator+ComponentA.m in Sources */,
-				ECA786931DE1AB4A01206A10449A14A3 /* TAEntreyAVC.m in Sources */,
-				EBCF6827F1BB7FA14F7C29B6ECF45A81 /* TAentryADetailVC.m in Sources */,
-				EF789B65102C51F937C61EE2C69E6648 /* Target_ComponentA.m in Sources */,
-				54E79AFE6EDCE114293BE4322EF94A93 /* TargetActionComponentA-dummy.m in Sources */,
+				A48F9A2689046BEC61DE8B5C2F990C8A /* CTMediator+ComponentA.m in Sources */,
+				2B984F5351298C9879D7A78914C7014A /* TAEntreyAVC.m in Sources */,
+				38F36179E6AA843376C0DED390749F5C /* TAentryADetailVC.m in Sources */,
+				863304391844DB4E37E65DB9B93FE658 /* Target_ComponentA.m in Sources */,
+				6099558631FD906D9E04AEDEB55176CF /* TargetActionComponentA-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,99 +874,90 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE7E0AE347DE787D8FDC38A41DC587B4 /* Sources */ = {
+		74379B6FEAF733726673ED5B7633575A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6F4B76B22B9151DA10F149C46BDE7B4 /* Pods-TargetActionProject-dummy.m in Sources */,
+				638BA19C2A7D55A1E9825B416B5EE0E7 /* CTMediator+HQMapComponent.m in Sources */,
+				7F355BD615C5C134C66D0ADA3D5D6FAB /* HQAddressModel.m in Sources */,
+				BCE071E08ADB305987391E6FEA83BF6B /* HQLocationManager.m in Sources */,
+				3AADBC2828DADFAA02985238BA8253AD /* HQMapComponent-dummy.m in Sources */,
+				BA1B765EDCCEA43E13737573BCBD3E1A /* HQMapViewController.m in Sources */,
+				FD4D30377805B4360EEFCAFE3CDFFDA2 /* Target_HQMap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEA3A2BB08F193AC8F74C4DA4DB7B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEEE2588BFA67A32BBDF403BAFFEE51 /* CTMediator+ComponentB.m in Sources */,
+				79BBE8CE7574CA3A38638E6CAB6787BC /* TAEntreyBVC.m in Sources */,
+				C01ED7126C2BCB3C528482077A2BEC4A /* TAentryBDetailVC.m in Sources */,
+				C78BB0A4FB4611D3DDD37AFEB3F9162B /* Target_ComponentB.m in Sources */,
+				637DFFB2D545D50CA1B39D20DDD04045 /* TargetActionComponentB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64FEFB2CE5383922CACAB952B046E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E65E8D31E6C65F3B24F69C1DDFE46BE /* Pods-TargetActionProject-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E819462D1EACA41E0B09FA8F1A832A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TargetActionComponentA;
-			target = ECB1A7A59C6F136BB8572A720B363FBC /* TargetActionComponentA */;
-			targetProxy = 5CE45CD095489090E8371FD79EC183C3 /* PBXContainerItemProxy */;
-		};
-		51D045E56267BEC01171C7EB2EFDF706 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */;
-			targetProxy = 8AECC45BCC117AE2130350DC8E3DF08B /* PBXContainerItemProxy */;
-		};
-		892AC2BE0BEC34EBB0ED6145346EE6BB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */;
-			targetProxy = 8301A493E4DF4CFFB8F40581956A091C /* PBXContainerItemProxy */;
-		};
-		A592397ACCE3DC5DDE3E69A16294B0B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */;
-			targetProxy = F228D5105E3985E9C10916AD72E31A46 /* PBXContainerItemProxy */;
-		};
-		A9D1F76B3B5CD7A4F7A2A5AE76732B10 /* PBXTargetDependency */ = {
+		1002AA54D6615533CC6823410CCE97C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TargetActionComponentB;
-			target = CB53EB3EC046D02897DF64C49D19C4F5 /* TargetActionComponentB */;
-			targetProxy = C48F2C67BE46C9885744415355FB528A /* PBXContainerItemProxy */;
+			target = B9F0A55DC1299EC4B42D2C6604C1805F /* TargetActionComponentB */;
+			targetProxy = 16CE055CAA48E56FB16898123011BCB6 /* PBXContainerItemProxy */;
+		};
+		4EE1B353FEB758E077D1254BB7C3D200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */;
+			targetProxy = A026AC9CF7D857465CBD9C13B4C035E1 /* PBXContainerItemProxy */;
+		};
+		5C2AEAFAEDD53232BD26BB05966FA568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TargetActionComponentA;
+			target = 38C2F75D20814A75C598568FD7F09C4E /* TargetActionComponentA */;
+			targetProxy = D630161CB86E5FE66C2BF5F01829699E /* PBXContainerItemProxy */;
+		};
+		98DCD6A95592C6DE6C4CAE1EDC7E0CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */;
+			targetProxy = C02D6A04D81E09750B786C4A791D1500 /* PBXContainerItemProxy */;
+		};
+		AA5C7971C4C8522DFEFFCE78CCBFF98F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */;
+			targetProxy = BC0B08FA2F25DEC7FEDC5199CC642B09 /* PBXContainerItemProxy */;
+		};
+		F2F91032BC02E8F331BF10BA2F8F563A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HQMapComponent;
+			target = D01D667FC4EFEE49ED901118A7A33A28 /* HQMapComponent */;
+			targetProxy = 7D8ECB8AF1FFD40A60431B5524648295 /* PBXContainerItemProxy */;
+		};
+		FB32E0F76A938AAC24F4EAA3F1F2757D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */;
+			targetProxy = 5BC2096599EC609437D74157E9206DDA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		33249968F0846BF56CB80DC10DF8DF4D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6449F4B06D989C56C374207669A95C89 /* TargetActionComponentB.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TargetActionComponentB/TargetActionComponentB-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TargetActionComponentB;
-				PRODUCT_NAME = TargetActionComponentB;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		483E58E28C3F9707AD24BEC6D1AD7FB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6296EA516BA46B023F5FCAD3B93B342 /* Pods-TargetActionProject.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		4F5C7149B00DDC25F60BF4E249B11938 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6686B6D734C81A1F1FDBE0734371F6B8 /* CTMediator.xcconfig */;
+			baseConfigurationReference = F8DC98E206A0C7668FB1E49E939D7533 /* CTMediator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -642,52 +1041,6 @@
 			};
 			name = Debug;
 		};
-		5EA2053BC35DD123E1A6E0744EC71CAF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6449F4B06D989C56C374207669A95C89 /* TargetActionComponentB.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TargetActionComponentB/TargetActionComponentB-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TargetActionComponentB;
-				PRODUCT_NAME = TargetActionComponentB;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7CCB818A9B4CA6A78095BC93A3981C6A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BE0E1DEDAD83E37EFD907C503FA520E /* Pods-TargetActionProject.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -746,9 +1099,9 @@
 			};
 			name = Release;
 		};
-		C1CBB65F0ED601596B2DCECAA06315D2 /* Debug */ = {
+		B1FFAC68FBFD8F95CB731B637353B5F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63897E20A7E892304697FA756CB1A2CD /* TargetActionComponentA.xcconfig */;
+			baseConfigurationReference = DA925ECE7F37AB1F07A92C3418D8027F /* TargetActionComponentA.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -769,9 +1122,78 @@
 			};
 			name = Debug;
 		};
+		C3CAC37C4883B56B434E6334E7447619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6296EA516BA46B023F5FCAD3B93B342 /* Pods-TargetActionProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA4D6D3C136B3C09A2F22932B895008E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0369B97AE1BC7BA5EB87DFD611CF45CE /* TargetActionComponentB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TargetActionComponentB/TargetActionComponentB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TargetActionComponentB;
+				PRODUCT_NAME = TargetActionComponentB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3A44A69CF3208BD9A5AA1CAE8AB36BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE0E1DEDAD83E37EFD907C503FA520E /* Pods-TargetActionProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		E5EF221FE6F70516AD71E85B7D7760AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6686B6D734C81A1F1FDBE0734371F6B8 /* CTMediator.xcconfig */;
+			baseConfigurationReference = F8DC98E206A0C7668FB1E49E939D7533 /* CTMediator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -793,9 +1215,79 @@
 			};
 			name = Release;
 		};
-		FD58AA9EBAC4D60612D20EF4EA61F518 /* Release */ = {
+		F6E2EB20831A9E0EB9497B7DC2A7C00F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63897E20A7E892304697FA756CB1A2CD /* TargetActionComponentA.xcconfig */;
+			baseConfigurationReference = 0369B97AE1BC7BA5EB87DFD611CF45CE /* TargetActionComponentB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TargetActionComponentB/TargetActionComponentB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TargetActionComponentB;
+				PRODUCT_NAME = TargetActionComponentB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEC49961B8ADC2CDE6874820655D88C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3BA37D9469DE13D673DF493267E4C7 /* HQMapComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HQMapComponent/HQMapComponent-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HQMapComponent;
+				PRODUCT_NAME = HQMapComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEC5D9C720584703DF57AACFED7E7519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3BA37D9469DE13D673DF493267E4C7 /* HQMapComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HQMapComponent/HQMapComponent-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HQMapComponent;
+				PRODUCT_NAME = HQMapComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEC74E95D05E8382CB68D50481F57C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA925ECE7F37AB1F07A92C3418D8027F /* TargetActionComponentA.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -820,11 +1312,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0EC8F90B817BFF3E2CF65BF2F63A7C89 /* Build configuration list for PBXNativeTarget "HQMapComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC5D9C720584703DF57AACFED7E7519 /* Debug */,
+				FEC49961B8ADC2CDE6874820655D88C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
 				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA0BBB3019F34733B564866E7D2C366 /* Build configuration list for PBXNativeTarget "Pods-TargetActionProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A44A69CF3208BD9A5AA1CAE8AB36BD /* Debug */,
+				C3CAC37C4883B56B434E6334E7447619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -838,29 +1348,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4316D882D4949E7AD968580E55B95FD7 /* Build configuration list for PBXNativeTarget "TargetActionComponentB" */ = {
+		A0C785775FE1C79AA870B675A55979F7 /* Build configuration list for PBXNativeTarget "TargetActionComponentA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33249968F0846BF56CB80DC10DF8DF4D /* Debug */,
-				5EA2053BC35DD123E1A6E0744EC71CAF /* Release */,
+				B1FFAC68FBFD8F95CB731B637353B5F8 /* Debug */,
+				FEC74E95D05E8382CB68D50481F57C79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9506565C171B750FF36F8AC5E2223A16 /* Build configuration list for PBXNativeTarget "Pods-TargetActionProject" */ = {
+		CCF4782A7D631707E3BB5287F0FD980B /* Build configuration list for PBXNativeTarget "TargetActionComponentB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CCB818A9B4CA6A78095BC93A3981C6A /* Debug */,
-				483E58E28C3F9707AD24BEC6D1AD7FB8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C825AE06BC7CEA1285BBBFC9692FD501 /* Build configuration list for PBXNativeTarget "TargetActionComponentA" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1CBB65F0ED601596B2DCECAA06315D2 /* Debug */,
-				FD58AA9EBAC4D60612D20EF4EA61F518 /* Release */,
+				F6E2EB20831A9E0EB9497B7DC2A7C00F /* Debug */,
+				CA4D6D3C136B3C09A2F22932B895008E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
